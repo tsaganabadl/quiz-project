@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Викторина по литературе</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
+        <div class="question-count" id="questionCount">Вопрос 1 из 10</div>
+        <div class="question-text" id="questionText"></div>
+        
+        <div class="options" id="options"></div>
+        
+        <button id="resultsBtn">Результаты</button>
+    </div>
+
+    <div class="results-screen" id="resultsScreen">
+        <div class="results-box">
+            <h2>Результат</h2>
+            <p id="score"></p>
+            <button id="restartBtn">Начать заново</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
